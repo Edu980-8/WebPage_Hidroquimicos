@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+/* Reset básico para el cuerpo y el HTML */
+html,body,h1,h2,h3,h4,p {
+  margin: 0;
+  padding: 0;
+  font-family:'Mukta',sans-serif;
+  --color-text: #e4e4e4;
+  --color-navbar:#2B6CA3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+.accordion-container{
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr ;
+}
+
+.container_robot{
+  width:5svh;
+  height:5svh;
+}
+

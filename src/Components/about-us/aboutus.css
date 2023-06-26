@@ -1,0 +1,43 @@
+.container-total-about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100svw;
+    height: 100svh;
+    background-color: var(--color-navbar);
+
+}
+
+.parrafos_internos{
+    width: 50svw;
+    height: 15svh;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+}
+
+.headers_about_us{
+    text-decoration: none;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+}
+.container_who_we_are{
+    margin:5svw;
+    text-align: justify;
+}
+
+.container__services{
+    background-image: url('../Images/imagen_quienes_somos.jpg');
+    grid-row: 1/3;
+    grid-column: 2;
+    background-size:cover;
+}
+
+.container_who_we_are h2{
+  font-size: calc(10svh / 2);
+}
+
+.container_who_we_are p {
+    font-size: calc(5svh / 2);
+}

@@ -1,0 +1,33 @@
+
+.content-container-acc{
+    display:grid;
+    width: 100%;
+    max-height: 90%;
+    grid-template-columns: 1fr; 
+}
+.accordion-container{
+    display:grid;
+    width: 50%;
+    max-height: 100%;
+    padding-bottom: 5px;
+    align-items: center;
+    grid-row: 1;
+}
+.accordion-content{
+    position: absolute;
+    margin-top:-3.4svh ;
+    margin-left: 16.5svw;
+    max-height: 16.3svh;
+    min-width: 20svw;
+    max-width: 20svw;
+    overflow: hidden;
+}
+.accordion-container>:first-child, .accordion-container>:first-child .accordion-header {
+    border-radius: 1svw 1svw 0 0;
+    object-fit: cover;
+}
+
+.accordion-container>:last-child, .accordion-container>:last-child .accordion-header {
+    border-radius: 0 0 1svw 1svw;
+    object-fit: cover;
+}

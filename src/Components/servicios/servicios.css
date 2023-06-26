@@ -1,0 +1,22 @@
+.container__last{
+    display: grid;
+    width: 100svw;
+    height: 100svh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url('../Images/pexels-chepté-cormani-1416530.jpg');
+    background-size:cover;
+    
+}
+
+.title__navbar_1,
+.title__navbar_2 {
+  grid-row: 1;
+  margin: 5svh auto 0;
+}
+.title__navbar_1 {
+  grid-column: 1 / span 2;
+  
+}
+.title__navbar_2 {
+  grid-column: 3 / span 2;
+}
